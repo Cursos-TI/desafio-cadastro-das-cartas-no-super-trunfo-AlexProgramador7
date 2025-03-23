@@ -21,5 +21,9 @@ int main() {
 
     printf("Desafio Super Trunfo!\n");
 
+    char Estado
+    
+
+
     return 0;
 }
