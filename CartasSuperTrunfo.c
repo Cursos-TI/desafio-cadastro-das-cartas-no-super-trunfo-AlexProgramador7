@@ -21,7 +21,14 @@ int main() {
 
     printf("Desafio Super Trunfo!\n");
 
-    char Estado
+    char Estado = "A";
+    char Código[20] = "A01";
+    char cidade[30] = "São Paulo";
+    int população = 1232500;
+    float áreakm² = 1521.11;
+    float PIB = 699.28;
+    int Pontoturistico = 50;
+
     
 
 
