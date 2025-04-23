@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 int main() {
+
     // Carta 1
     char estado1;
     char codigo1[4];
@@ -122,5 +124,7 @@ int main() {
     printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2);
 
     return 0;
+
+    
 }
 
