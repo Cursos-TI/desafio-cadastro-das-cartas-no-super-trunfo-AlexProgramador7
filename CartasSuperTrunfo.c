@@ -2,7 +2,7 @@
 
 int main() {
 
-    // Carta 01
+    // Carta 1
     char estado1;
     char codigo1[4];
     char nomeCidade1[50];
@@ -14,7 +14,7 @@ int main() {
     float pibPerCapita1;
     float superPoder1;
 
-    // Carta 02
+    // Carta 2
     char estado2;
     char codigo2[4];
     char nomeCidade2[50];
@@ -26,7 +26,7 @@ int main() {
     float pibPerCapita2;
     float superPoder2;
 
-    // Entrada de dados para a Carta 01
+    // Entrada de dados para a Carta 1
     printf("Cadastro da Carta 1:\n");
 
     printf("Estado (A a H): ");
@@ -50,14 +50,14 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // Cálculos adicionais para Carta 01
+    // Cálculos adicionais para Carta 1
     densidadePopulacional1 = populacao1 / area1;
     pibPerCapita1 = (pib1 * 1000000000) / populacao1;
     superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1.0f / densidadePopulacional1);
 
     printf("\n");
 
-    // Exibição dos dados da Carta 01
+    // Exibição dos dados da Carta 1
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -71,7 +71,7 @@ int main() {
 
     printf("\n");
 
-    // Entrada de dados para a Carta 02
+    // Entrada de dados para a Carta 2
     printf("Cadastro da Carta 2:\n");
 
     printf("Estado (A a H): ");
@@ -95,14 +95,14 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    // Cálculos adicionais para Carta 02
+    // Cálculos adicionais para Carta 2
     densidadePopulacional2 = populacao2 / area2;
     pibPerCapita2 = (pib2 * 1000000000) / populacao2;
     superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1.0f / densidadePopulacional2);
 
     printf("\n");
 
-    // Exibição dos dados da Carta 02
+    // Exibição dos dados da Carta 2
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
